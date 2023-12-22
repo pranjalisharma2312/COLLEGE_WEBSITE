@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html" id="loginLink">Login</a></li>
+                <li><a href="#" id="logoutLink" style="display: none;">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <h2>Login Page</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
